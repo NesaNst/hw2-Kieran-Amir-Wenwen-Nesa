@@ -16,3 +16,4 @@ This epic is focused on the development of a portable, wearable, 24/7 health and
 - S.O.S. Button
 - changeble, rechargeable battery 
 - alert emergency contact in emergency
+- alert when time to take meds
