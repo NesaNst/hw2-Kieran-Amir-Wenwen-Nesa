@@ -26,5 +26,5 @@ This epic is focused on the safety of the elderly while they are at home. It inc
 -Alerts can be managed from the control panel
 -all devices can be managed from the control panel
 -automated locks can be controlled from control panel
--Control panel can be used to call EMS in emergency
+-ontrol panel can be used to call EMS in emergency
 
