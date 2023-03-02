@@ -34,7 +34,7 @@ This epic is focused on the safety of the elderly while they are at home. It inc
 ### Alert EMS When User Falls
 Given that I’m wearing the device and not exercising, when my heart rate is out of normal range for more than 1 minute, then the device will call 911.
 
-###Alert To take meds
+### Alert To take meds
 Given that I’m wearing the device and it's time to take my med, when I confirm that the med is taken then I expect the amount of remaining med updates accordingly.
 
 - Feature : Reminder for taking meds
