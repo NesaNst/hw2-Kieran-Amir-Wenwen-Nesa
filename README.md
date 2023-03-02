@@ -56,7 +56,7 @@ Given that I’m wearing the device and it's time to take my med, when I confirm
 ## Part 5: System Requirements in EARS Syntax
 
 ### Take their meds
-Where the alarm doesn't go off after an hour, the wearable shall send a message to the elderly's children and doctor.
+Where the alarm doesn't go off after an hour, the wearable shall send a message to the elderly's children and doctor.\
 If the amount of meds are running low, then the wearable shall send a reminder message to elderly’s children.
 
 <!---2.Where the sugar level drops, the wearable shall send a notification.
