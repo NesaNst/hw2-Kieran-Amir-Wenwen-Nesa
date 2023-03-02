@@ -37,17 +37,17 @@ Given that I’m wearing the device and not exercising, when my heart rate is ou
 ###Alert To take meds
 Given that I’m wearing the device and it's time to take my med, when I confirm that the med is taken then I expect the amount of remaining med updates accordingly.
 
-Feature : Reminder for taking meds
-Scenario    Elderly takes all the meds on time
-Given         Elderly takes two different meds per day
-And            All the meds are enough 
-And            An alarm is already set for these two meds on specific time
-When         The time for taking a med comes
-Then          The alarm goes on
-And           The elderly can see on the screen which med to take
-And           The elderly confirms that they took the med
-And           The quantity of that med will be updated 
-And           The alarm goes off
+- Feature : Reminder for taking meds
+- Scenario     Elderly takes all the meds on time
+- Given        Elderly takes two different meds per day
+- And          All the meds are enough 
+- And          An alarm is already set for these two meds on specific time
+- When         The time for taking a med comes
+- Then         The alarm goes on
+- And          The elderly can see on the screen which med to take
+- And          The elderly confirms that they took the med
+- And          The quantity of that med will be updated 
+- And          The alarm goes off
 
 
 
@@ -59,10 +59,10 @@ And           The alarm goes off
 Where the alarm doesn't go off after an hour, the wearable shall send a message to the elderly's children and doctor.
 If the amount of meds are running low, then the wearable shall send a reminder message to elderly’s children.
 
---2.Where the sugar level drops, the wearable shall send a notification.
---3.Where the elderly is unable to read the wearable shall read notifications.
---2.If the wearable is taken off, then the wearable shall alert.
---3.If the battery goes low, then the wearable shall send a notification of changing the batteries.
+<!---2.Where the sugar level drops, the wearable shall send a notification.
+3.Where the elderly is unable to read the wearable shall read notifications.
+2.If the wearable is taken off, then the wearable shall alert.
+3.If the battery goes low, then the wearable shall send a notification of changing the batteries. -->
 
 
 
