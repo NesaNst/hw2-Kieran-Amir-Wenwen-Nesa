@@ -35,19 +35,19 @@ This epic is focused on the safety of the elderly while they are at home. It inc
 Given that I’m wearing the device and not exercising, when my heart rate is out of normal range for more than 1 minute, then the device will call 911.
 
 ### Alert To take meds
-Given that I’m wearing the device and it's time to take my med, when I confirm that the med is taken then I expect the amount of remaining med updates accordingly.\
+Given that I’m wearing the device and it's time to take my med, when I confirm that the med is taken then I expect the amount of remaining med updates accordingly.
 
  Feature : Reminder for taking meds <br />
- Scenario     Elderly takes all the meds on time \
- Given        Elderly takes two different meds per day \
- And          All the meds are enough \ 
- And          An alarm is already set for these two meds on specific time \
- When         The time for taking a med comes \
- Then         The alarm goes on \
- And          The elderly can see on the screen which med to take \
- And          The elderly confirms that they took the med \
- And          The quantity of that med will be updated \ 
- And          The alarm goes off \
+ -Scenario     Elderly takes all the meds on time 
+ -Given        Elderly takes two different meds per day 
+ -And          All the meds are enough 
+ -And          An alarm is already set for these two meds on specific time 
+ -When         The time for taking a med comes 
+ -Then         The alarm goes on 
+ -And          The elderly can see on the screen which med to take 
+ -And          The elderly confirms that they took the med 
+ -And          The quantity of that med will be updated  
+ -And          The alarm goes off 
 
 
 
