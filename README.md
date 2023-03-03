@@ -33,11 +33,11 @@ This epic is focused on the safety of the elderly while they are at home. It inc
 ## Part 4: User Stories in Gherkin Syntax
 
 ### User Presses SOS Button
-Feature: User presses SOS button
+Feature: User presses SOS button<br/>
 
-Scenario: User needs to manually contact emergency services
-Given: The device is connected to the internet and configured with the country's EMS contact info
-When: The use presses the SOS button
+Scenario: User needs to manually contact emergency services<br/>
+Given: The device is connected to the internet and configured with the country's EMS contact info<br/>
+When: The use presses the SOS button<br/>
 Then: A call is initiated with EMS
 ### Alert EMS When User Falls
 Given that I’m wearing the device and not exercising, when my heart rate is out of normal range for more than 1 minute, then the device will call 911.
