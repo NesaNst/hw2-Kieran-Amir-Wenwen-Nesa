@@ -31,6 +31,14 @@ This epic is focused on the safety of the elderly while they are at home. It inc
 
 
 ## Part 4: User Stories in Gherkin Syntax
+
+### User Presses SOS Button
+Feature: User presses SOS button
+
+Scenario: User needs to manually contact emergency services
+Given: The device is connected to the internet and configured with the country's EMS contact info
+When: The use presses the SOS button
+Then: A call is initiated with EMS
 ### Alert EMS When User Falls
 Given that I’m wearing the device and not exercising, when my heart rate is out of normal range for more than 1 minute, then the device will call 911.
 
@@ -69,5 +77,6 @@ If the amount of meds are running low, then the wearable shall send a reminder m
 ### SOS Button
 While I’m wearing the device, when I press the “SOS” button, the device will call 911. If the call is unsuccessful, it will call again. It will continue the loop until battery is out.
 
-
+### Fall detection (event driven EARS Statement)
+When the device detects a fall, the device shall start a 60 second countown to let the user know EMS will be contacted.
 
