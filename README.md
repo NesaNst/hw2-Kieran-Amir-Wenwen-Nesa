@@ -57,7 +57,20 @@ Given that I’m wearing the device and it's time to take my med, when I confirm
  - And          The quantity of that med will be updated  
  - And          The alarm goes off 
 
+### Send GPS location to a caretaker
 
+Feature: Sending GPS Location to Caretaker
+
+-Scenario: GPS location will be sent to the caretaker
+-Given the elderly person has agreed to wear the GPS enabled device
+-And the caretaker has agreed to receive the GPS location information
+-And the GPS enabled device is fully charged and activated
+-When the elderly person wears the GPS enabled device
+-And the device continuously tracks the location of the elderly person
+-And the device sends the location data to a remote server
+-And the remote server processes the data and sends it to the caretaker's device
+-Then the caretaker receives the GPS location information
+-And can view it on their device
 
 
 
