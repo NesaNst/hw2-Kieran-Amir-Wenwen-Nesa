@@ -93,3 +93,9 @@ While I’m wearing the device, when I press the “SOS” button, the device wi
 ### Fall detection (event driven EARS Statement)
 When the device detects a fall, the device shall start a 60 second countown to let the user know EMS will be contacted.
 
+
+### Smoke and break-in detection sensors
+The system shall have sensors installed in the senior's house to detect smoke and break-ins. The sensors shall provide real-time alerts to authorized users when smoke or a break-in is detected.
+
+### Secure access to footage from senior monitoring cameras
+The system shall provide secure access to footage from cameras installed around the senior's house. Authorized users shall be able to view the footage in real-time or recorded format. The system shall use secure and encrypted communication channels to protect the privacy and security of the elderly's living situation.
